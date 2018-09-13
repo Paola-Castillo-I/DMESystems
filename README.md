@@ -17,7 +17,6 @@ Edson Leonel López Quiroga
 ***
 ## Objetivo
 Crear una aplicación Movil con los conocimientos adquiridos en clase, en la cual se pueda observar la información de una empresa, el giro, nombre, logo, dirección etcetera y el puntuaje que le da el usuario.
-***
 
 ***
 ## Descripcion
