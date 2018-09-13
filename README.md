@@ -7,6 +7,7 @@
 ***
 ## Integrantes
 Manuel Alejandro Torres Fonseca 
+Edson Leonel López Quiroga
 
 
 ***
