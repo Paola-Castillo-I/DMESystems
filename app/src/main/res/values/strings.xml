@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DMESystems</string>
+    <string name="nombre_negocio">DME Systems</string>
+    <string name="telefono">Telefono:  477 50 18 823.</string>
+    <string name="correo">Correo: dme@dmesystem.com</string>
+    <string name="web">Sitio web: https://dme-system.com.mx</string>
+    <string name="direccion_nombre">Direccion:</string>
+    <string name="direccion_contenido">Catalina Villavicencio #210 Col. la Alameda</string>
+    <string name="giro_nombre">Descripcion:</string>
+    <string name="giro_contenido">Es un negocio de tecnologias de información y comunicación
+                                  que da atención a notarias publicas y centros medicos,
+                                  se lleva a cabo un sistema que es capaz de ingresar las
+                                  facturas de los clientes que van por un servicio en
+                                  especifico. </string>
+    <string name="horario">Horario: 9:00 am a 2:00 pm y 4:00 pm a 8:00 pm.</string>
+    <string name="valoracion">Como calificarias la informacion de esta aplicacion</string>
+    <string name="texto_boton">calificar</string>
+</resources>
