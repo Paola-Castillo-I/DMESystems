@@ -8,7 +8,10 @@
 
 ***
 ## Integrantes
+Diana Priscila De la Rosa Campos
+
 Manuel Alejandro Torres Fonseca 
+
 Edson Leonel López Quiroga
 
 ***
