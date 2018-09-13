@@ -2,19 +2,28 @@
 <resources>
     <!-- esta cadena indica el nombre del proyecto se crea por default-->
     <string name="app_name">DMESystems</string>
-    
+    <!-- esta cadena es la del telefono -->
     <string name="telefono">Telefono:  477 50 18 823.</string>
+    <!-- esta cadena indica el correo electronico-->
     <string name="correo">Correo: dme@dmesystem.com</string>
+    <!-- esta cadena indica el sito web-->
     <string name="web">Sitio web: https://dme-system.com.mx</string>
+    <!-- esta cadena indica la palabra direccion-->
     <string name="direccion_nombre">Direccion:</string>
+    <!-- esta cadena esta separada de la direccion en caso de que se cambie de lugar la epresa solo se modifica esta cadena-->
     <string name="direccion_contenido">Catalina Villavicencio #210 Col. la Alameda</string>
+    <!-- esta cadena indica la palabra descripcion-->
     <string name="giro_nombre">Descripcion:</string>
+    <!-- esta cadena esta separada de la palabra descripcion por que se puede modificar mas facilmente la descripcion cone esta cadena-->
     <string name="giro_contenido">Es un negocio de tecnologias de información y comunicación
                                   que da atención a notarias publicas y centros medicos,
                                   se lleva a cabo un sistema que es capaz de ingresar las
                                   facturas de los clientes que van por un servicio en
                                   especifico. </string>
+    <!-- esta cadena indica los horarios de visita -->
     <string name="horario">Horario: 9:00 am a 2:00 pm y 4:00 pm a 8:00 pm.</string>
+    <!-- esta cadena indica el letrero para que califique la aplicacion-->
     <string name="valoracion">Como calificarias la informacion de esta aplicacion</string>
+    <!-- esta cadena indica el contenido del boton-->
     <string name="texto_boton">calificar</string>
 </resources>
