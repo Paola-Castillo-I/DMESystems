@@ -5,6 +5,7 @@
 + [Objetivo](#Objetivo)
 + [Descripcion](#descripcion)
 + [Materiales/Recursos](#Recursos)
++ [Contactos](#Contactos)
 
 ***
 ## Integrantes
@@ -26,6 +27,17 @@ Aplicacion en android de la empresa DME Systems en la cual se encarga de dar una
 ## Recursos
 Se usaron algunos recursos desde la aplicación android, para identificar cada uno de las vistas que se crearon en la aplicación, imagenes que muestra la empresa la cual "creamos" para fines de estudio y de trabajo escolar. Hubo nuevas vistas o propiedades como RatingBar, usado para darle una calificación a la información de la empresa, (se lleva a cabo con puntuación de estrellas), la importancia de darle una id a cada uno de las vistas hace mas facil el manejo de estas al momento de programarlas en la actividad principal.
 ***
+## Contactos
+ nombre: Manuel Alejandro Torres Fonseca
+ 
+ correo electrónico:321ctorres@gmail.com
 
+ nombre: Diana Priscila De la Rosa Campos
+ 
+ correo electrónico: dian_pris@outlook.com
+
+ nombre: Edson Leonel López Quiroga.
+ 
+ correo electrónico: edsonLopez@hotmail.com
 
 
