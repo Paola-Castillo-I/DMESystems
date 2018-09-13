@@ -6,17 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Usamos Linear Layout para usar vistas de forma vertical con una imagen y 3 textview -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="match_parent"   
         android:orientation="vertical">
+    <!-- Indicamos la forma vertical para que puedan salir alineadas nuestras vistas -->
 
+    <!-- Usamos una imagen guardada en @drawable que seria el logo de la empresa con una altura de 95 pixeles, y que no ocupe todo el tamaño del celular -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="95dp"
             android:background="@drawable/logo_dme"
             android:scaleType="centerCrop"/>
-
+    
+        <!-- Indicamos un textview nuevo con un identificador dandole un estilo y un paddin de 8 pixeles -->
+        <!-- el color del texto que se escogió fue azul -->
         <TextView
             android:id="@+id/telefono"
             android:layout_width="match_parent"
@@ -25,6 +30,9 @@
             android:text="@string/telefono"
             style="@style/estilo_texto"/>
 
+        <!-- Indicamos un textview nuevo con un identificador dandole un estilo y un paddin de 8 pixeles -->
+        <!-- el color del texto que se escogió fue azul -->
+        <!-- Teniendo un padding de 8 se puede evitar juntar la información de cada textview -->
         <TextView
             android:id="@+id/correo"
             android:layout_width="match_parent"
@@ -33,6 +41,8 @@
             android:text="@string/correo"
             style="@style/estilo_texto"/>
 
+        <!-- Indicamos un textview nuevo con un identificador dandole un estilo y un paddin de 8 pixeles -->
+        <!-- Los datos en los textview son información de la empresa que viene representando a la imagen puesta anteriormente -->
         <TextView
             android:id="@+id/sitio_web"
             android:layout_width="match_parent"
@@ -40,13 +50,18 @@
             android:paddingBottom="8dp"
             android:text="@string/web"
             style="@style/estilo_texto"/>
-
+        
+        
+        <!-- Indicamos otro layout de forma horizontal para la dirección y la descripcion de la empresa, ya que estan separadas por -->
+        <!-- una gran cantidad de texto, por eso se separan en dos textview -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:paddingBottom="8dp">
 
+            <!-- Usamos un textview para indicar la dirección -->
+            <!-- Teniendo un padding de 8 se puede evitar juntar la información de cada textview -->
             <TextView
                 android:id="@+id/direccion_nombre"
                 android:layout_width="match_parent"
@@ -54,7 +69,9 @@
                 android:paddingRight="8dp"
                 android:text="@string/direccion_nombre"
                 style="@style/estilo_texto"/>
-
+            
+            <!-- Usamos el siguiente textview para indicar la descripcion de la direccion -->
+            <!-- Teniendo un padding de 8 se puede evitar juntar la información de cada textview -->
             <TextView
                 android:id="@+id/direccion_contenido"
                 android:layout_width="match_parent"
@@ -63,12 +80,15 @@
                 style="@style/estilo_texto"/>
         </LinearLayout>
 
+        <!-- Usamos otro linearLayout para poner la descripcion de la empresa de forma horizontal -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:paddingBottom="8dp">
 
+            <!-- Se separa en dos, la descripcion de la empresa, del lado izquierdo el nombre o giro -->            
+            <!-- Teniendo un padding de 10 se puede evitar juntar la información de la parte derecha de la pantalla -->
             <TextView
                 android:id="@+id/giro_nombre"
                 android:layout_width="match_parent"
@@ -76,7 +96,9 @@
                 android:paddingRight="10dp"
                 android:text="@string/giro_nombre"
                 style="@style/estilo_texto"/>
-
+                        
+            <!-- Y del lado derecho el contenido de ese nombre o giro -->       
+            <!-- Teniendo un padding de 10 se puede evitar juntar la información de la parte derecha de la pantalla -->
             <TextView
                 android:id="@+id/giro_contenido"
                 android:layout_width="match_parent"
@@ -87,6 +109,7 @@
 
         </LinearLayout>
 
+        <!-- Al igual que las vistas anteriores usamos un textview para indicar el nombre, en este caso el horario en la parte izquierda -->
         <TextView
             android:id="@+id/horario"
             android:layout_width="match_parent"
@@ -95,6 +118,8 @@
             android:text="@string/horario"
             style="@style/estilo_texto"/>
 
+        <!-- En la parte de la derecha la informacion del primer textview (en este caso horario) -->
+        <!-- Teniendo un padding de 8 se puede evitar juntar la información con los demas textview-->
         <TextView
             android:id="@+id/texto_valoracion"
             android:layout_width="match_parent"
@@ -102,7 +127,11 @@
             android:paddingBottom="8dp"
             android:text="@string/valoracion"
             style="@style/estilo_texto"/>
-
+        
+        <!--Con el rating bar podemos indicar la calificación de la información dada -->
+        <!-- con un numero de estrella de 5 -->
+        <!-- tenemos el stepsize para darle el tamaño de la calificacion -->
+        <!-- tenemos a rating que es la calificacion para establecer por defecto, en este caso son dos estrellas-->
         <RatingBar
             android:id="@+id/barra_estrellas"
             android:layout_width="wrap_content"
@@ -111,7 +140,7 @@
             android:numStars="5"
             android:stepSize="1"
             android:rating="2"/>
-
+    <!-- Por ultimo tenemos un boton donde calificamos nuestra app -->
         <Button
             android:id="@+id/boton_calificar"
             android:layout_width="match_parent"
