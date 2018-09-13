@@ -1,6 +1,8 @@
+<!-- aqui se indican todas las cadenas que se utilizan en la aplicacion-->
 <resources>
+    <!-- esta cadena indica el nombre del proyecto se crea por default-->
     <string name="app_name">DMESystems</string>
-    <string name="nombre_negocio">DME Systems</string>
+    
     <string name="telefono">Telefono:  477 50 18 823.</string>
     <string name="correo">Correo: dme@dmesystem.com</string>
     <string name="web">Sitio web: https://dme-system.com.mx</string>
